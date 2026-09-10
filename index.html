@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de posts da Stefanie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Lista de posts</h1>
+        <p>Posts carregados da api jsonPlaceholder</p>
+    </header>
+    <main>
+        <div class="acoes">
+            <button id="carregar-posts">Carregar Posts</button>
+        </div>
+        <div id="loading" class="loading">Carregando...</div>
+        <div id="mensagem" class="mensagem"></div>
+        <select id="listaPosts" class="posts">
+            <!-- Os posts serão carregados aqui dinamicamente -->
+        </select>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
