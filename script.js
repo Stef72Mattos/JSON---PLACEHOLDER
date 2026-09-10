@@ -42,5 +42,3 @@ function mostrarPosts(posts) {
         listaPosts.appendChild(div);
     });
 }
-//      listaPosts.innerHTML = '';
-//      mensagem.textContent = '';
